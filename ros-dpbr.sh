@@ -3,16 +3,16 @@ mkdir -p ./pbr
 cd ./pbr
 
 # AS4809 BGP
-wget --no-check-certificate -c -O CN.txt https://raw.githubusercontent.com/soffchen/GeoIP2-CN/release/CN-ip-cidr.txt
+wget --no-check-certificate -c -O pcdnblock.txt https://bcr.pbh-btn.ghorg.ghostchu-services.top/combine/all.txt
 
 {
 echo "/ip firewall address-list"
 
-for net in $(cat CN.txt) ; do
-  echo "add list=CN address=$net comment=AS4809"
+for net in $(cat pcdnblock.txt) ; do
+  echo "add list=pcdnblock address=$net comment=p2pblock"
 done
 
-} > ../CN.rsc
+} > ../p2pblock.rsc
 
 cd ..
 rm -rf ./pbr
