@@ -1,14 +1,3 @@
-/ip firewall address-list
-add list=pcdnblock address=# comment=p2pblock
-add list=pcdnblock address=[START] comment=p2pblock
-add list=pcdnblock address=Auto comment=p2pblock
-add list=pcdnblock address=merged comment=p2pblock
-add list=pcdnblock address=CIDR comment=p2pblock
-add list=pcdnblock address=- comment=p2pblock
-add list=pcdnblock address=IPV4: comment=p2pblock
-add list=pcdnblock address=24, comment=p2pblock
-add list=pcdnblock address=IPV6: comment=p2pblock
-add list=pcdnblock address=56 comment=p2pblock
 add list=pcdnblock address=101.29.80.0/24 comment=p2pblock
 add list=pcdnblock address=101.29.81.0/24 comment=p2pblock
 add list=pcdnblock address=101.29.82.0/24 comment=p2pblock
