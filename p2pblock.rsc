@@ -1,3 +1,4 @@
+/ip firewall address-list
 add list=pcdnblock address=101.29.80.0/24 comment=p2pblock
 add list=pcdnblock address=101.29.81.0/24 comment=p2pblock
 add list=pcdnblock address=101.29.82.0/24 comment=p2pblock
