@@ -15,7 +15,7 @@ done
 } > ../p2pblock.rsc
 
 # Remove the first 10 lines from the generated p2pblock.rsc
-sed -i '1,10d' ../p2pblock.rsc
+sed -i '1,11d' ../p2pblock.rsc
 
 cd ..
 rm -rf ./pbr
