@@ -17,5 +17,8 @@ done
 # Remove the first 10 lines from the generated p2pblock.rsc
 sed -i '1,11d' ../p2pblock.rsc
 
+# Prepend the line "/ip firewall address-list" back to the top of the file
+sed -i '1i /ip firewall address-list' ../p2pblock.rsc
+
 cd ..
 rm -rf ./pbr
