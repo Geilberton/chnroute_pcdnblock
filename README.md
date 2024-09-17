@@ -1,6 +1,6 @@
-大陆白名单路由规则
+For p2p pcdn block only.
 
-ip段信息取自 [misakaio](https://github.com/misakaio/chnroutes2)
+ip段信息取自 ([https://github.com/misakaio/chnroutes2](https://github.com/PBH-BTN/BTN-Collected-Rules/tree/main?tab=readme-ov-file))
 由Github Action自动构建于此。
 
 策略路由分流的实现方法：
